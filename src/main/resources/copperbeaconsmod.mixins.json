@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "net.korjeek.copperbeaconsmod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BeaconScreenHandlerMixin",
+    "BeaconScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "HandledScreenMixin",
+    "ScreenMixin"
+  ]
+}
